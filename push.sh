@@ -3,20 +3,14 @@
  # @Author: zhangshouchang
  # @Date: 2024-07-31 23:02:37
  # @LastEditors: zhangshouchang
- # @LastEditTime: 2024-07-31 23:05:40
+ # @LastEditTime: 2024-07-31 23:11:13
 ### 
 #!/bin/bash
-###
- # @Author: zhangshouchang
- # @Date: 2024-07-31 21:24:35
- # @LastEditors: zhangshouchang
- # @LastEditTime: 2024-07-31 23:02:26
-### 
 
 # 设置错误中止
 set -e
 
 # 提交和推送代码
 git add .
-git commit -m "code commit"
+git commit -m "file commit"
 git push -u origin main
