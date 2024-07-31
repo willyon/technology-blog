@@ -3,7 +3,7 @@
  # @Author: zhangshouchang
  # @Date: 2024-07-31 21:24:35
  # @LastEditors: zhangshouchang
- # @LastEditTime: 2024-07-31 21:25:06
+ # @LastEditTime: 2024-07-31 22:37:23
 ### 
 
 # 设置错误中止
@@ -12,7 +12,7 @@ set -e
 # 提交和推送代码
 git add .
 git commit -m "Deploy commit"
-git push origin main
+git push -u origin main
 
 # 生成静态文件
 npm run build
