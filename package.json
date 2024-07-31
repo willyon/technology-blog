@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "push": "sh push.sh",
     "publish": "sh deploy.sh",
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
